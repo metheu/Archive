@@ -1,0 +1,97 @@
+version: "3.1"
+
+services:
+  traefik:
+    image: traefik:alpine
+    container_name: traefik
+    ports:
+      - 80:80
+      - 4040:4040
+      - 8181:8181
+      - 8081:8081
+      - 8080:8080
+      - 9090:9090
+    volumes:
+      - ./traefik:/etc/traefik
+      - /var/run/docker.sock:/var/run/docker.sock
+    labels:
+       - "traefik.enable=true"
+       - traefik.port=8081
+       - "traefik.frontend.rule=Host:monitor.docker.localhost"
+    restart: unless-stopped
+    networks:
+        - traefik_proxy
+
+  headphones:
+    image: linuxserver/headphones
+    container_name: headphones
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Tbilisi
+    volumes:
+      - ${headphones_config_dir}:/config
+      - ${headphones_downloads_dir}:/downloads
+      - ${main_data_dir}:/music
+    restart: unless-stopped
+    networks:
+        - traefik_proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.frontend.rule=Host:headphones.docker.localhost"
+
+  
+  airsonic:
+    image: airsonic/airsonic
+    container_name: airsonic
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Tbilisi
+      - JAVA_OPTS=-Dserver.use-forward-headers=true
+    volumes:
+      - ${main_data_dir}:/airsonic/music
+      - ${airsonic_data_dir}:/airsonic/data
+      - ${airsonic_playlists_dir}:/airsonic/playlists
+      - ${airsonic_podcasts_dir}:/airsonic/podcasts
+    labels:
+      - "traefik.enable=true"
+      - "traefik.frontend.rule=Host:airsonic.docker.localhost"
+    restart: unless-stopped  
+    networks:
+        - traefik_proxy
+
+  # Test image for trafeik 
+  whoami:
+    image: emilevauge/whoami
+    container_name: whoami
+    labels:
+      - traefik.enable=true
+      - "traefik.frontend.rule=Host:whoami.docker.localhost"
+    networks:
+        - traefik_proxy
+  
+  sabnzbd:
+    image: linuxserver/sabnzbd
+    container_name: sabnzbd
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Tbilisi
+    labels:
+      - traefik.enable=true
+      - "traefik.frontend.rule=Host:snb.docker.localhost"
+    volumes:
+      - ${sabnzbd_config_dir}:/config
+      - ${main_data_dir}:/downloads
+      - ${sabnzbd_incomplete_dir}:/incomplete-downloads
+    restart: unless-stopped
+    networks:
+        - traefik_proxy
+  
+networks:
+  traefik_proxy:
+    external:
+      name: traefik_proxy
+      
+    

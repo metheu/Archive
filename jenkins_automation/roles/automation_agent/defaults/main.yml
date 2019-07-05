@@ -1,0 +1,3 @@
+---
+# defaults file for automation_agent
+automation_user_name: runner_agent

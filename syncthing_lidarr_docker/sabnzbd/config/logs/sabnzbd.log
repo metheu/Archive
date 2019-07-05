@@ -1,0 +1,284 @@
+2019-06-04 18:43:14,120::INFO::[sabnzbdplus:1152] --------------------------------
+2019-06-04 18:43:14,121::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2019-06-04 18:43:14,121::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2019-06-04 18:43:14,121::INFO::[sabnzbdplus:1164] Platform = posix
+2019-06-04 18:43:14,121::INFO::[sabnzbdplus:1165] Python-version = 2.7.15rc1 (default, Nov 12 2018, 14:31:15) 
+[GCC 7.3.0]
+2019-06-04 18:43:14,121::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2019-06-04 18:43:14,122::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2019-06-04 18:43:14,122::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.0g  2 Nov 2017
+2019-06-04 18:43:14,122::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2019-06-04 18:43:14,122::INFO::[misc:523] download_dir directory: /config/Downloads/incomplete does not exist, try to create it
+2019-06-04 18:43:14,123::INFO::[__init__:985] [N/A] /config/admin/queue9.sab missing
+2019-06-04 18:43:14,124::INFO::[__init__:985] [N/A] /config/admin/queue8.sab missing
+2019-06-04 18:43:14,124::INFO::[__init__:985] [N/A] /config/admin/queue7.sab missing
+2019-06-04 18:43:14,137::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-04 18:43:14,151::INFO::[__init__:985] [N/A] /config/admin/rss_data.sab missing
+2019-06-04 18:43:14,152::INFO::[__init__:985] [N/A] /config/admin/totals10.sab missing
+2019-06-04 18:43:14,153::INFO::[__init__:985] [N/A] /config/admin/totals9.sab missing
+2019-06-04 18:43:14,191::INFO::[postproc:100] Loading postproc queue
+2019-06-04 18:43:14,191::INFO::[__init__:985] [N/A] /config/admin/postproc2.sab missing
+2019-06-04 18:43:14,191::INFO::[__init__:985] [N/A] /config/admin/queue10.sab missing
+2019-06-04 18:43:14,201::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-04 18:43:14,222::INFO::[__init__:985] [N/A] /config/admin/watched_data2.sab missing
+2019-06-04 18:43:14,222::INFO::[__init__:985] [N/A] /config/admin/Rating.sab missing
+2019-06-04 18:43:14,223::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2019-06-04 18:43:14,223::INFO::[__init__:349] All processes started
+2019-06-04 18:43:14,223::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2019-06-04 18:43:14,224::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2019-06-04 18:43:14,234::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-04 18:43:14,344::INFO::[sabnzbdplus:397] SABYenc module (v3.3.5)... found!
+2019-06-04 18:43:14,354::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2019-06-04 18:43:14,354::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2019-06-04 18:43:14,354::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2019-06-04 18:43:14,355::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2019-06-04 18:43:14,355::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2019-06-04 18:43:14,355::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2019-06-04 18:43:14,355::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2019-06-04 18:43:14,355::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2019-06-04 18:43:14,358::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2019-06-04 18:43:14,358::INFO::[_cplogging:219] [04/Jun/2019:18:43:14] ENGINE Bus STARTING
+2019-06-04 18:43:14,588::INFO::[_cplogging:219] [04/Jun/2019:18:43:14] ENGINE Serving on http://0.0.0.0:8080
+2019-06-04 18:43:14,593::INFO::[_cplogging:219] [04/Jun/2019:18:43:14] ENGINE Bus STARTED
+2019-06-04 18:43:14,598::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2019-06-04 18:43:14,612::INFO::[dirscanner:330] Dirscanner starting up
+2019-06-04 18:43:14,621::INFO::[postproc:187] Completed Download Folder /config/Downloads/complete is not on FAT
+2019-06-04 18:43:14,623::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2019-06-04 18:43:14,624::INFO::[urlgrabber:82] URLGrabber starting up
+2019-06-04 18:44:16,624::WARNING::[interface:329] Refused connection with hostname "snb.docker.localhost" from: 172.23.0.3 (X-Forwarded-For: 172.23.0.1)>Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+2019-06-04 18:46:50,219::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2019-06-04 18:46:50,222::INFO::[nzbqueue:260] Saving queue
+2019-06-04 18:46:50,231::INFO::[postproc:94] Saving postproc queue
+2019-06-04 18:47:06,868::INFO::[sabnzbdplus:1152] --------------------------------
+2019-06-04 18:47:06,870::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2019-06-04 18:47:06,870::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2019-06-04 18:47:06,870::INFO::[sabnzbdplus:1164] Platform = posix
+2019-06-04 18:47:06,871::INFO::[sabnzbdplus:1165] Python-version = 2.7.15rc1 (default, Nov 12 2018, 14:31:15) 
+[GCC 7.3.0]
+2019-06-04 18:47:06,871::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2019-06-04 18:47:06,871::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2019-06-04 18:47:06,871::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.0g  2 Nov 2017
+2019-06-04 18:47:06,871::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2019-06-04 18:47:06,875::INFO::[postproc:100] Loading postproc queue
+2019-06-04 18:47:06,877::INFO::[__init__:985] [N/A] /config/admin/Rating.sab missing
+2019-06-04 18:47:06,877::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2019-06-04 18:47:06,883::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-04 18:47:06,894::INFO::[__init__:349] All processes started
+2019-06-04 18:47:06,894::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2019-06-04 18:47:06,895::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2019-06-04 18:47:06,899::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-04 18:47:06,980::INFO::[sabnzbdplus:397] SABYenc module (v3.3.5)... found!
+2019-06-04 18:47:06,981::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2019-06-04 18:47:06,982::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2019-06-04 18:47:06,984::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2019-06-04 18:47:06,985::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2019-06-04 18:47:06,986::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2019-06-04 18:47:06,987::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2019-06-04 18:47:06,987::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2019-06-04 18:47:06,988::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2019-06-04 18:47:06,990::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2019-06-04 18:47:06,991::INFO::[_cplogging:219] [04/Jun/2019:18:47:06] ENGINE Bus STARTING
+2019-06-04 18:47:07,227::INFO::[_cplogging:219] [04/Jun/2019:18:47:07] ENGINE Serving on http://0.0.0.0:8080
+2019-06-04 18:47:07,227::INFO::[_cplogging:219] [04/Jun/2019:18:47:07] ENGINE Bus STARTED
+2019-06-04 18:47:07,228::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2019-06-04 18:47:07,241::INFO::[postproc:187] Completed Download Folder /config/Downloads/complete is not on FAT
+2019-06-04 18:47:07,259::INFO::[dirscanner:330] Dirscanner starting up
+2019-06-04 18:47:07,274::INFO::[urlgrabber:82] URLGrabber starting up
+2019-06-04 18:47:07,275::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2019-06-04 18:47:13,327::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-04 18:47:40,331::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-05 10:45:45,307::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2019-06-05 10:45:45,441::INFO::[nzbqueue:260] Saving queue
+2019-06-05 10:45:45,462::INFO::[postproc:94] Saving postproc queue
+2019-06-06 12:20:33,027::INFO::[sabnzbdplus:1152] --------------------------------
+2019-06-06 12:20:33,030::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2019-06-06 12:20:33,030::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2019-06-06 12:20:33,031::INFO::[sabnzbdplus:1164] Platform = posix
+2019-06-06 12:20:33,031::INFO::[sabnzbdplus:1165] Python-version = 2.7.15rc1 (default, Nov 12 2018, 14:31:15) 
+[GCC 7.3.0]
+2019-06-06 12:20:33,031::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2019-06-06 12:20:33,032::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2019-06-06 12:20:33,032::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.0g  2 Nov 2017
+2019-06-06 12:20:33,032::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2019-06-06 12:20:33,051::INFO::[postproc:100] Loading postproc queue
+2019-06-06 12:20:33,077::INFO::[__init__:985] [N/A] /config/admin/Rating.sab missing
+2019-06-06 12:20:33,077::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2019-06-06 12:20:33,091::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-06 12:20:33,103::INFO::[__init__:349] All processes started
+2019-06-06 12:20:33,111::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2019-06-06 12:20:33,115::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2019-06-06 12:20:33,140::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-06 12:20:33,354::INFO::[sabnzbdplus:397] SABYenc module (v3.3.5)... found!
+2019-06-06 12:20:33,355::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2019-06-06 12:20:33,355::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2019-06-06 12:20:33,355::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2019-06-06 12:20:33,356::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2019-06-06 12:20:33,357::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2019-06-06 12:20:33,357::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2019-06-06 12:20:33,357::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2019-06-06 12:20:33,357::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2019-06-06 12:20:33,359::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2019-06-06 12:20:33,359::INFO::[_cplogging:219] [06/Jun/2019:12:20:33] ENGINE Bus STARTING
+2019-06-06 12:20:33,547::INFO::[_cplogging:219] [06/Jun/2019:12:20:33] ENGINE Serving on http://0.0.0.0:8080
+2019-06-06 12:20:33,547::INFO::[_cplogging:219] [06/Jun/2019:12:20:33] ENGINE Bus STARTED
+2019-06-06 12:20:33,547::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2019-06-06 12:20:33,558::INFO::[dirscanner:330] Dirscanner starting up
+2019-06-06 12:20:33,562::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2019-06-06 12:20:33,564::INFO::[urlgrabber:82] URLGrabber starting up
+2019-06-06 12:20:33,577::INFO::[postproc:187] Completed Download Folder /config/Downloads/complete is not on FAT
+2019-06-06 12:25:57,728::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2019-06-06 12:25:57,911::INFO::[nzbqueue:260] Saving queue
+2019-06-06 12:25:57,960::INFO::[postproc:94] Saving postproc queue
+2019-06-06 12:28:00,936::INFO::[sabnzbdplus:1152] --------------------------------
+2019-06-06 12:28:00,939::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2019-06-06 12:28:00,939::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2019-06-06 12:28:00,940::INFO::[sabnzbdplus:1164] Platform = posix
+2019-06-06 12:28:00,940::INFO::[sabnzbdplus:1165] Python-version = 2.7.15rc1 (default, Nov 12 2018, 14:31:15) 
+[GCC 7.3.0]
+2019-06-06 12:28:00,940::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2019-06-06 12:28:00,941::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2019-06-06 12:28:00,941::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.0g  2 Nov 2017
+2019-06-06 12:28:00,941::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2019-06-06 12:28:00,957::INFO::[postproc:100] Loading postproc queue
+2019-06-06 12:28:00,961::INFO::[__init__:985] [N/A] /config/admin/Rating.sab missing
+2019-06-06 12:28:00,962::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2019-06-06 12:28:00,966::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-06 12:28:00,975::INFO::[__init__:349] All processes started
+2019-06-06 12:28:00,976::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2019-06-06 12:28:00,981::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2019-06-06 12:28:01,013::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-06 12:28:01,175::INFO::[sabnzbdplus:397] SABYenc module (v3.3.5)... found!
+2019-06-06 12:28:01,176::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2019-06-06 12:28:01,176::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2019-06-06 12:28:01,176::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2019-06-06 12:28:01,176::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2019-06-06 12:28:01,176::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2019-06-06 12:28:01,176::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2019-06-06 12:28:01,176::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2019-06-06 12:28:01,177::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2019-06-06 12:28:01,179::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2019-06-06 12:28:01,182::INFO::[_cplogging:219] [06/Jun/2019:12:28:01] ENGINE Bus STARTING
+2019-06-06 12:28:01,418::INFO::[_cplogging:219] [06/Jun/2019:12:28:01] ENGINE Serving on http://0.0.0.0:8080
+2019-06-06 12:28:01,419::INFO::[_cplogging:219] [06/Jun/2019:12:28:01] ENGINE Bus STARTED
+2019-06-06 12:28:01,421::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2019-06-06 12:28:01,452::INFO::[postproc:187] Completed Download Folder /config/Downloads/complete is not on FAT
+2019-06-06 12:28:01,471::INFO::[dirscanner:330] Dirscanner starting up
+2019-06-06 12:28:01,482::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2019-06-06 12:28:01,485::INFO::[urlgrabber:82] URLGrabber starting up
+2019-06-06 12:46:03,504::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2019-06-06 12:46:03,618::INFO::[nzbqueue:260] Saving queue
+2019-06-06 12:46:03,643::INFO::[postproc:94] Saving postproc queue
+2019-06-06 12:50:53,044::INFO::[sabnzbdplus:1152] --------------------------------
+2019-06-06 12:50:53,045::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2019-06-06 12:50:53,046::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2019-06-06 12:50:53,046::INFO::[sabnzbdplus:1164] Platform = posix
+2019-06-06 12:50:53,046::INFO::[sabnzbdplus:1165] Python-version = 2.7.15rc1 (default, Nov 12 2018, 14:31:15) 
+[GCC 7.3.0]
+2019-06-06 12:50:53,047::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2019-06-06 12:50:53,047::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2019-06-06 12:50:53,047::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.0g  2 Nov 2017
+2019-06-06 12:50:53,048::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2019-06-06 12:50:53,054::INFO::[postproc:100] Loading postproc queue
+2019-06-06 12:50:53,057::INFO::[__init__:985] [N/A] /config/admin/Rating.sab missing
+2019-06-06 12:50:53,058::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2019-06-06 12:50:53,066::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-06 12:50:53,082::INFO::[__init__:349] All processes started
+2019-06-06 12:50:53,082::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2019-06-06 12:50:53,084::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2019-06-06 12:50:53,093::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-06 12:50:53,177::INFO::[sabnzbdplus:397] SABYenc module (v3.3.5)... found!
+2019-06-06 12:50:53,179::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2019-06-06 12:50:53,179::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2019-06-06 12:50:53,180::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2019-06-06 12:50:53,180::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2019-06-06 12:50:53,180::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2019-06-06 12:50:53,180::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2019-06-06 12:50:53,180::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2019-06-06 12:50:53,180::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2019-06-06 12:50:53,183::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2019-06-06 12:50:53,184::INFO::[_cplogging:219] [06/Jun/2019:12:50:53] ENGINE Bus STARTING
+2019-06-06 12:50:53,307::INFO::[_cplogging:219] [06/Jun/2019:12:50:53] ENGINE Serving on http://0.0.0.0:8080
+2019-06-06 12:50:53,309::INFO::[_cplogging:219] [06/Jun/2019:12:50:53] ENGINE Bus STARTED
+2019-06-06 12:50:53,310::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2019-06-06 12:50:53,325::INFO::[postproc:187] Completed Download Folder /config/Downloads/complete is not on FAT
+2019-06-06 12:50:53,327::INFO::[dirscanner:330] Dirscanner starting up
+2019-06-06 12:50:53,335::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2019-06-06 12:50:53,336::INFO::[urlgrabber:82] URLGrabber starting up
+2019-06-06 12:51:20,412::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2019-06-06 12:51:20,445::INFO::[nzbqueue:260] Saving queue
+2019-06-06 12:51:20,456::INFO::[postproc:94] Saving postproc queue
+2019-06-06 13:00:46,468::INFO::[sabnzbdplus:1152] --------------------------------
+2019-06-06 13:00:46,471::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2019-06-06 13:00:46,471::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2019-06-06 13:00:46,472::INFO::[sabnzbdplus:1164] Platform = posix
+2019-06-06 13:00:46,472::INFO::[sabnzbdplus:1165] Python-version = 2.7.15rc1 (default, Nov 12 2018, 14:31:15) 
+[GCC 7.3.0]
+2019-06-06 13:00:46,472::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2019-06-06 13:00:46,472::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2019-06-06 13:00:46,473::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.0g  2 Nov 2017
+2019-06-06 13:00:46,473::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2019-06-06 13:00:46,477::INFO::[postproc:100] Loading postproc queue
+2019-06-06 13:00:46,480::INFO::[__init__:985] [N/A] /config/admin/Rating.sab missing
+2019-06-06 13:00:46,481::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2019-06-06 13:00:46,488::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-06 13:00:46,496::INFO::[__init__:349] All processes started
+2019-06-06 13:00:46,497::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2019-06-06 13:00:46,497::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2019-06-06 13:00:46,502::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-06 13:00:46,562::INFO::[sabnzbdplus:397] SABYenc module (v3.3.5)... found!
+2019-06-06 13:00:46,563::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2019-06-06 13:00:46,564::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2019-06-06 13:00:46,565::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2019-06-06 13:00:46,566::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2019-06-06 13:00:46,568::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2019-06-06 13:00:46,570::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2019-06-06 13:00:46,571::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2019-06-06 13:00:46,573::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2019-06-06 13:00:46,575::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2019-06-06 13:00:46,577::INFO::[_cplogging:219] [06/Jun/2019:13:00:46] ENGINE Bus STARTING
+2019-06-06 13:00:46,801::INFO::[_cplogging:219] [06/Jun/2019:13:00:46] ENGINE Serving on http://0.0.0.0:8080
+2019-06-06 13:00:46,802::INFO::[_cplogging:219] [06/Jun/2019:13:00:46] ENGINE Bus STARTED
+2019-06-06 13:00:46,802::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2019-06-06 13:00:46,807::INFO::[dirscanner:330] Dirscanner starting up
+2019-06-06 13:00:46,813::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2019-06-06 13:00:46,816::INFO::[postproc:187] Completed Download Folder /config/Downloads/complete is not on FAT
+2019-06-06 13:00:46,817::INFO::[urlgrabber:82] URLGrabber starting up
+2019-06-06 14:54:17,980::INFO::[sabnzbdplus:1152] --------------------------------
+2019-06-06 14:54:17,986::INFO::[sabnzbdplus:1153] sabnzbdplus-2.3.9 (rev=03c10dce91e13918bc2e6f8ca9c309196b90be11)
+2019-06-06 14:54:17,987::INFO::[sabnzbdplus:1154] Full executable path = /usr/bin/sabnzbdplus
+2019-06-06 14:54:17,987::INFO::[sabnzbdplus:1164] Platform = posix
+2019-06-06 14:54:17,987::INFO::[sabnzbdplus:1165] Python-version = 2.7.15rc1 (default, Nov 12 2018, 14:31:15) 
+[GCC 7.3.0]
+2019-06-06 14:54:17,988::INFO::[sabnzbdplus:1166] Arguments = /usr/bin/sabnzbdplus --config-file /config --server 0.0.0.0:8080
+2019-06-06 14:54:17,988::INFO::[sabnzbdplus:1171] Preferred encoding = UTF-8
+2019-06-06 14:54:17,988::INFO::[sabnzbdplus:1181] SSL version = OpenSSL 1.1.0g  2 Nov 2017
+2019-06-06 14:54:17,988::INFO::[sabnzbdplus:1229] Read INI file /config/sabnzbd.ini
+2019-06-06 14:54:17,997::INFO::[postproc:100] Loading postproc queue
+2019-06-06 14:54:17,999::INFO::[__init__:985] [N/A] /config/admin/Rating.sab missing
+2019-06-06 14:54:17,999::INFO::[scheduler:197] Setting schedule for midnight BPS reset
+2019-06-06 14:54:18,013::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-06 14:54:18,020::INFO::[__init__:349] All processes started
+2019-06-06 14:54:18,021::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Glitter
+2019-06-06 14:54:18,030::INFO::[sabnzbdplus:286] Web dir is /usr/share/sabnzbdplus/interfaces/Config
+2019-06-06 14:54:18,037::INFO::[config:853] Writing settings to INI file /config/sabnzbd.ini
+2019-06-06 14:54:18,100::INFO::[sabnzbdplus:397] SABYenc module (v3.3.5)... found!
+2019-06-06 14:54:18,100::INFO::[sabnzbdplus:414] Cryptography module (v2.1.4)... found!
+2019-06-06 14:54:18,100::INFO::[sabnzbdplus:419] par2 binary... found (/usr/bin/par2)
+2019-06-06 14:54:18,100::INFO::[sabnzbdplus:429] UNRAR binary... found (/usr/bin/unrar)
+2019-06-06 14:54:18,101::INFO::[sabnzbdplus:437] UNRAR binary version 5.50
+2019-06-06 14:54:18,101::INFO::[sabnzbdplus:442] unzip binary... found (/usr/bin/unzip)
+2019-06-06 14:54:18,101::INFO::[sabnzbdplus:447] 7za binary... found (/usr/bin/7za)
+2019-06-06 14:54:18,101::INFO::[sabnzbdplus:453] nice binary... found (/usr/bin/nice)
+2019-06-06 14:54:18,102::INFO::[sabnzbdplus:457] ionice binary... found (/usr/bin/ionice)
+2019-06-06 14:54:18,103::INFO::[sabnzbdplus:1385] Starting web-interface on 0.0.0.0:8080
+2019-06-06 14:54:18,103::INFO::[_cplogging:219] [06/Jun/2019:14:54:18] ENGINE Bus STARTING
+2019-06-06 14:54:18,339::INFO::[_cplogging:219] [06/Jun/2019:14:54:18] ENGINE Serving on http://0.0.0.0:8080
+2019-06-06 14:54:18,339::INFO::[_cplogging:219] [06/Jun/2019:14:54:18] ENGINE Bus STARTED
+2019-06-06 14:54:18,340::INFO::[sabnzbdplus:1423] Starting sabnzbdplus-2.3.9
+2019-06-06 14:54:18,352::INFO::[postproc:187] Completed Download Folder /config/Downloads/complete is not on FAT
+2019-06-06 14:54:18,357::INFO::[dirscanner:330] Dirscanner starting up
+2019-06-06 14:54:18,370::INFO::[panic:209] Launching browser with http://127.0.0.1:8080/sabnzbd
+2019-06-06 14:54:18,373::INFO::[urlgrabber:82] URLGrabber starting up
+2019-06-06 17:27:54,146::WARNING::[__init__:182] Signal 15 caught, saving and exiting...
+2019-06-06 17:27:54,171::INFO::[nzbqueue:260] Saving queue
+2019-06-06 17:27:54,176::INFO::[postproc:94] Saving postproc queue

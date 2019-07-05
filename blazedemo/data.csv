@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1552309446054,528,Get all countries,200,,Thread Group(Main) 2-1,text,true,,53800,139,1,1,https://restcountries.eu/rest/v2/region/europe/,354,0,201
+1552309481956,675,Get all countries,200,,Thread Group(Main) 2-1,text,true,,53807,139,1,1,https://restcountries.eu/rest/v2/region/europe/,522,0,210

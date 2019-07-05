@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT" verbose="10">
+  <listeners>
+    <listener class-name="RetryListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="TestCase_1(failed)" verbose="10">
+    <classes>
+      <class name="testNgTesting">
+        <methods>
+          <include name="Test2"/>
+          <include name="setup"/>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- testNgTesting -->
+    </classes>
+  </test> <!-- TestCase_1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

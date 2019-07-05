@@ -1,0 +1,30 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+
+Vagrant.configure("2") do |config|
+    config.vm.provision "shell", inline: <<-SHELL
+    echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDv9vC2jLMgXsJbMt7+IYIUMaGi0THM4PVXMN8indRx93X8cErdPEyzR99q6u5fpsFmqkkdQu7NhUZvRMzr6JlbZj8ghWZ4BlzhXzAbj7B24zspAwRllBtN3H4e5IcTyDsBDN77kvGQk0Ad4+IXJoSfsb3yjbw5mdHA5UWB+7YjiEYAme8H0NKk7gUj4dBqf6HXNKddtP+bNJxh9WIAu7hulyolCRbURgTW/GAPlTdnJCi7XaezeqYjiFag9ubLWjpzlmBYkSAT3Rg/a7PlfVk5W419zDbwHpS70VuNBz5I+RJqIU0Mp5OpqUjf8gVJqQCbGaQy0KtEvzMBV2WOAiUR matt@localhost.localdomain" >> /home/vagrant/.ssh/authorized_keys
+    sudo systemctl restart sshd.service &&
+    wget -P /home/vagrant/ https://dl.google.com/go/go1.12.3.linux-amd64.tar.gz &&
+    sudo tar -C /usr/local -xvzf /home/vagrant/go1.12.3.linux-amd64.tar.gz &&
+    echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/home/vagrant/.bash_profile &&
+    source ~/home/vagrant/.bash_profile &&
+    sudo yum groupinstall 'Development Tools' -y && sudo yum install -y git libpcap-devel &&
+    SHELL
+  
+    config.vm.define "netgraph" do |m|
+      m.vm.box = "bento/centos-7.5"
+      m.vm.hostname = 'httpserver'
+      
+    
+      m.vm.network :"public_network", bridge: "wlp1s0", ip: "192.168.0.150"
+    
+      m.vm.provider :virtualbox do |v|
+        v.name    = "httpserver"
+        v.memory  = "1024"
+        v.cpus    = "1" 
+      end
+    end 
+  end
+  

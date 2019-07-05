@@ -1,0 +1,22 @@
+defaultEntryPoints = ["http"]
+
+[web]
+
+# Web administration port.
+#
+# Required
+# Default: ":8080"
+#
+address = ":8081"
+
+
+[entryPoints]
+  [entryPoints.http]
+  address = ":80"
+
+[docker]
+endpoint = "unix:///var/run/docker.sock"
+domain = "docker.localhost"
+exposedByDefault = false
+watch = true
+network = "traefik_proxy"

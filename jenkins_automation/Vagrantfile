@@ -1,0 +1,42 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+
+Vagrant.configure("2") do |config|
+    config.vm.provision "shell", inline: <<-SHELL
+    echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmjfKLJxDRkmrRchGK13QLJCLShjQzQZMsg0NImq9p2U6DwhnZ+L9u9xrlmnFLIYzHTgw3By2D/uARRoo5ezAmOTv3TmxIvG3BluTMbbwggTD8ggZiN9yP1lqkofY5a1jHxult7eSU08bgo0D/OlZas4yeZOTl/5nTUuywlY8A+zcyij9n2Q0TuJ2yToWIsSsfqMAeQ5HTAG2+NPp3oJPNl/yWvSGQG3fAMvUlIDajnjBlM2ENSH6QJzjLn6ONR2dVo0sGPV50QqWcZCfF3/E7Pc4VgLXfFFpUWPgCRscxCGFQPo8oLTvnG3BoV79EOgOuIx434vclqi8RWE31OlKb matt@localhost.localdomain
+    " >> /home/vagrant/.ssh/authorized_keys &&
+    sudo systemctl restart sshd.service 
+    SHELL
+
+    # config.vm.provision "shell", inline: <<-SHELL
+    # wget https://github.com/rancher/k3s/releases/download/v0.5.0/k3s -O /home/vagrant/k3s && sudo mv -v /home/vagrant/k3s /usr/bin/ && sudo chmod +x /usr/bin/k3s
+    # SHELL
+  
+    config.vm.define "jenkins" do |m|
+      m.vm.box = "bento/centos-7.5"
+      m.vm.hostname = 'jenkins'
+      
+    
+      m.vm.network :"public_network", bridge: "wlp1s0", ip: "192.168.0.200"
+    
+      m.vm.provider :virtualbox do |v|
+        v.customize ["modifyvm", :id, "--memory", 1048]
+        v.customize ["modifyvm", :id, "--name", "jenkins"]
+      end
+    end
+
+    config.vm.define "agent" do |m|
+      m.vm.box = "bento/centos-7.5"
+      m.vm.hostname = 'agent'
+      
+    
+      m.vm.network :"public_network", bridge: "wlp1s0", ip: "192.168.0.201"
+    
+      m.vm.provider :virtualbox do |v|
+        v.customize ["modifyvm", :id, "--memory", 1048]
+        v.customize ["modifyvm", :id, "--name", "agent"]
+      end
+    end
+  end
+  

@@ -1,0 +1,49 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+# All Vagrant configuration is done below. The "2" in Vagrant.configure
+# configures the configuration version (we support older styles for
+# backwards compatibility). Please don't change it unless you know what
+# you're doing.
+
+Vagrant.configure("2") do |config|
+  config.vm.provision "shell", inline: <<-SHELL
+  #   apt-get update
+  #   apt-get install -y apache2
+  ## Add vagrant ssh key for ansible
+  echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDQ2DAvtDHPEjEGQzSVYpYJ/CEWicqST4ydyD9ZzI3lk9X0MyZd9OFsiqfVZB0HRvdy2ED6VVGVpJN8FKimxo+pQMu4RV4K0VHW0bbW36tTFlj13UPdL5VoS/exY3e+80dMpxOJN28J998tKHpW8/CVAQNCI8ixrpnr9t+XcZbC/NA6wvdMObTPIae12hue9LawqkJazPAOOdphdL0UGTeFutDSREHPahTfbCa8O0DWFhKJLYTcnj2YZSyaqdqZddsGCzcg0IlqHCcUTeoT4h3KGPQ5OhJGc0qu34t0UaZRCfdVbBdZbgsPEK5ObNgtgfkHD7kDh0TMkL5qeP3aqvzl matt@localhost.localdomain" >> /home/vagrant/.ssh/authorized_keys
+  sudo systemctl restart sshd.service
+  SHELL
+
+  config.vm.define "viewer" do |m|
+    m.vm.box = "bento/centos-7.6"
+    m.vm.hostname = 'viewer'
+    
+  
+    m.vm.network :"public_network", bridge: "wlp1s0", ip: "192.168.0.200"
+    
+
+  
+    m.vm.provider :virtualbox do |v|
+      v.customize ["modifyvm", :id, "--memory", 1024]
+      v.customize ["modifyvm", :id, "--name", "viewer"]
+    end
+  end
+
+  config.vm.define "capture" do |slave1|
+    slave1.vm.box = "bento/centos-7.6"
+    slave1.vm.hostname = 'capture'
+    
+  
+    slave1.vm.network :"public_network", bridge: "wlp1s0", ip: "192.168.0.201"
+
+
+
+    slave1.vm.provider :virtualbox do |v|
+      v.customize ["modifyvm", :id, "--memory", 1024]
+      v.customize ["modifyvm", :id, "--name", "capture"]
+    end
+  end
+end
+
+

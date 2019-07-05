@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/appium-parallel-execution" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bspwm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker-elk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my_testing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nextcloud_ubuntu_redis/docker-elk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/openNebula" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring_prom_sample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/sxhkd" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vagrant_nomad" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vagrant_nomad/prometheus" vcs="Git" />
+  </component>
+</project>

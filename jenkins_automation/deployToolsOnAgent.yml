@@ -1,0 +1,8 @@
+
+- hosts:
+    - agent
+
+  remote_user: vagrant
+
+  roles:
+    - roles/automation_agent

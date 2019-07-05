@@ -1,0 +1,23 @@
+---
+# tasks file for filebeat
+- name: Download Filebeat version
+  get_url:
+    url: https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-{{ filebeat_version }}-amd64.deb
+    dest: /tmp/filebeat-{{ filebeat_version }}-amd64.deb
+    mode: 0644
+
+- name: Install a filebeat .deb package
+  apt:
+    deb: /tmp/filebeat-{{ filebeat_version }}-amd64.deb
+
+- name: Start filebeat service is started and enabled
+  service: "name=filebeat state=started enabled=yes"
+
+- name: Copy Filebeat configuration.
+  template:
+    src: filebeat.yml.j2
+    dest: "/etc/filebeat/filebeat.yml"
+    owner: root
+    group: root
+    mode: 0644
+  notify: restart filebeat

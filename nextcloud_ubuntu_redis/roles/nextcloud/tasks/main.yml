@@ -1,0 +1,11 @@
+---
+# tasks file for nextcloud
+- name: Update apt cache.
+  apt: update_cache=yes cache_valid_time=3600
+
+- name: Ensure Apache is installed.
+  apt: "name={{ apache_package }} state=present" 
+
+- name: Start apache service is started and enabled
+  service: "name={{ apache_service }} state=started enabled=yes"
+

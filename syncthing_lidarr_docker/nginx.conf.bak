@@ -1,0 +1,39 @@
+worker_processes 1;
+
+events { worker_connections 1024; }
+
+http {
+
+    upstream syncthing {
+        server syncthing:8384;
+    }
+
+    upstream lidarr {
+        server lidarr:8686;
+    }
+
+
+    server {
+        listen 80;
+
+
+        location /syncthing {
+            proxy_pass           syncthing;
+            # proxy_redirect     off;
+            # proxy_set_header   Host $host;
+            # proxy_set_header   X-Real-IP $remote_addr;
+            # proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+            # proxy_set_header   X-Forwarded-Host $server_name;
+        }
+
+        location /lidarr {
+            proxy_pass           lidarr;
+            # proxy_redirect     off;
+            # proxy_set_header   Host $host;
+            # proxy_set_header   X-Real-IP $remote_addr;
+            # proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+            # proxy_set_header   X-Forwarded-Host $server_name;
+        }
+    }
+
+}

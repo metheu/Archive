@@ -1,0 +1,877 @@
+04-Jun-2019 10:59:44 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 10:59:46 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 10:59:46 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 10:59:46 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 10:59:47 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 10:59:47 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 10:59:47 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 10:59:47 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 10:59:47 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 11:00:07 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 11:00:07 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 11:00:07 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 11:00:37 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 11:00:37 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 11:00:38 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 11:00:38 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 11:00:38 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 11:00:38 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 11:00:38 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 11:00:38 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 11:00:38 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 11:03:54 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 11:03:54 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 11:03:54 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 11:04:16 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 11:04:16 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 11:04:20 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 11:04:20 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 11:04:20 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 11:04:20 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 11:04:20 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 11:04:20 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 11:04:20 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 11:06:45 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 11:06:45 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 11:06:45 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 11:07:04 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 11:07:04 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 11:07:05 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 11:07:05 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 11:07:05 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 11:07:05 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 11:07:05 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 11:07:05 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 11:07:05 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 11:12:43 - INFO    :: CP Server Thread-9 : Writing configuration to file
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Scanning music directory: /music
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : [/music] Now scanning subdirectory /shared-on-may-31-2019
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : 13 new/modified songs found and added to the database
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Found 13 new/modified tracks in: '/music'. Matching tracks to the appropriate releases....
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Now matching songs by Eminem
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Track matching is 15.3% complete
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Track matching is 30.7% complete
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Track matching is 46.1% complete
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Track matching is 61.5% complete
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Track matching is 76.9% complete
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Track matching is 92.3% complete
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Completed matching tracks from directory: /music
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Updating scanned artist track counts
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Found 1 new artists
+04-Jun-2019 11:12:43 - INFO    :: Thread-13 : Importing 1 new artists
+04-Jun-2019 11:12:49 - INFO    :: Thread-13 : Now adding/updating: Eminem
+04-Jun-2019 11:12:49 - INFO    :: Thread-13 : [Eminem] Now adding: Eminem & Friends: Game Over Sessions (New Release Group)
+04-Jun-2019 11:12:50 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Eminem & Friends: Game Over Sessions
+04-Jun-2019 11:12:50 - INFO    :: Thread-13 : [Eminem] Now adding: Mathers Massacre (New Release Group)
+04-Jun-2019 11:12:51 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Mathers Massacre
+04-Jun-2019 11:12:51 - INFO    :: Thread-13 : [Eminem] Now adding: The Marshall Mathers LP (Slowed & Chopped) (New Release Group)
+04-Jun-2019 11:12:52 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to The Marshall Mathers LP (Slowed & Chopped)
+04-Jun-2019 11:12:52 - INFO    :: Thread-13 : [Eminem] Now adding: Encore (New Release Group)
+04-Jun-2019 11:12:54 - INFO    :: Thread-13 : [Eminem] New release Encore (2ac6ed8e-daf4-473e-925d-c366357049d3) added
+04-Jun-2019 11:12:54 - INFO    :: Thread-13 : [Eminem] New release Encore (34300819-9efb-42cb-9fc6-4a3d8fe55032) added
+04-Jun-2019 11:12:54 - INFO    :: Thread-13 : [Eminem] New release Encore (5166ad5d-1a4d-42ab-9d05-dc347ccb030d) added
+04-Jun-2019 11:12:54 - INFO    :: Thread-13 : [Eminem] New release Encore (79df0c9f-30cb-4879-bac4-85a755850def) added
+04-Jun-2019 11:12:54 - INFO    :: Thread-13 : [Eminem] New release Encore (93b725a3-5e68-45e5-9798-5afb29922c5b) added
+04-Jun-2019 11:12:54 - INFO    :: Thread-13 : [Eminem] New release Encore (9c8d69e1-8aa3-319e-bc3e-9e0d13792655) added
+04-Jun-2019 11:12:54 - INFO    :: Thread-13 : [Eminem] New release Encore (c71fe58f-7a71-31a8-a41b-7e7351360992) added
+04-Jun-2019 11:12:54 - INFO    :: Thread-13 : [Eminem] Packaging Encore releases into hybrid title
+04-Jun-2019 11:12:54 - INFO    :: Thread-13 : [Eminem] Seeing if we need album art for Encore
+04-Jun-2019 11:12:55 - INFO    :: Thread-13 : [Eminem] Now adding: Lyrical Invasion (New Release Group)
+04-Jun-2019 11:12:56 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Lyrical Invasion
+04-Jun-2019 11:12:56 - INFO    :: Thread-13 : [Eminem] Now adding: Shady Beats (New Release Group)
+04-Jun-2019 11:12:57 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Shady Beats
+04-Jun-2019 11:12:57 - INFO    :: Thread-13 : [Eminem] Now adding: Better Man (New Release Group)
+04-Jun-2019 11:12:58 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Better Man
+04-Jun-2019 11:12:58 - INFO    :: Thread-13 : [Eminem] Now adding: Unmastered Sequence (New Release Group)
+04-Jun-2019 11:12:59 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Unmastered Sequence
+04-Jun-2019 11:12:59 - INFO    :: Thread-13 : [Eminem] Now adding: Marshall’s Law (New Release Group)
+04-Jun-2019 11:13:00 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Marshall’s Law
+04-Jun-2019 11:13:00 - INFO    :: Thread-13 : [Eminem] Now adding: Infinite (New Release Group)
+04-Jun-2019 11:13:02 - INFO    :: Thread-13 : [Eminem] New release Infinite (3d13a89a-e98b-4e46-afad-c67ad59724ff) added
+04-Jun-2019 11:13:02 - INFO    :: Thread-13 : [Eminem] New release Infinite (8fef1750-d904-4bd1-93d4-58acf6ea9c86) added
+04-Jun-2019 11:13:02 - INFO    :: Thread-13 : [Eminem] New release Infinite (d1a24259-af7a-4eaa-ac07-565f1a05b7e2) added
+04-Jun-2019 11:13:02 - INFO    :: Thread-13 : [Eminem] Packaging Infinite releases into hybrid title
+04-Jun-2019 11:13:02 - INFO    :: Thread-13 : [Eminem] Seeing if we need album art for Infinite
+04-Jun-2019 11:13:03 - INFO    :: Thread-13 : [Eminem] Now adding: Whiteboy Wasted (New Release Group)
+04-Jun-2019 11:13:03 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Whiteboy Wasted
+04-Jun-2019 11:13:03 - INFO    :: Thread-13 : [Eminem] Now adding: Double (New Release Group)
+04-Jun-2019 11:13:07 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Double
+04-Jun-2019 11:13:07 - INFO    :: Thread-13 : [Eminem] Now adding: Detroit King (New Release Group)
+04-Jun-2019 11:13:08 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Detroit King
+04-Jun-2019 11:13:08 - INFO    :: Thread-13 : [Eminem] Now adding: Shady Situation (New Release Group)
+04-Jun-2019 11:13:09 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Shady Situation
+04-Jun-2019 11:13:09 - INFO    :: Thread-13 : [Eminem] Now adding: Kamikaze (New Release Group)
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] New release Kamikaze (156a2df8-34c8-4f11-8846-9f107459d18f) added
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] New release Kamikaze (189e4fbb-8ffb-4699-9a77-52e576ff3dc5) added
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] New release Kamikaze (36cd7eeb-1059-4595-a5ae-7ee788745b76) added
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] New release Kamikaze (4089e4c8-b2d9-4234-a77d-fff9a8596c80) added
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] New release Kamikaze (86bb65e1-47ae-4b58-93bd-58db9b2ed67a) added
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] New release Kamikaze (bb764832-4e78-4967-aa05-9db5638f8283) added
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] New release Kamikaze (cf95266d-0bb9-43ac-9e50-ad0c877e3c80) added
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] New release Kamikaze (e2ca737e-8a6b-4c10-9ca0-21f7162ed974) added
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] New release Kamikaze (f783aaeb-a2b6-4fb8-a170-a3e0df2c58f4) added
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] Packaging Kamikaze releases into hybrid title
+04-Jun-2019 11:13:13 - INFO    :: Thread-13 : [Eminem] Seeing if we need album art for Kamikaze
+04-Jun-2019 11:13:14 - INFO    :: Thread-13 : [Eminem] Now adding: Recovery (New Release Group)
+04-Jun-2019 11:13:15 - INFO    :: Thread-13 : [Eminem] New release Recovery (174cd058-d6fb-4e53-a41a-4a29acf941d3) added
+04-Jun-2019 11:13:15 - INFO    :: Thread-13 : [Eminem] New release Recovery (193cf049-0d9c-409c-8197-acb092e80372) added
+04-Jun-2019 11:13:15 - INFO    :: Thread-13 : [Eminem] New release Recovery (262dc55e-d4fe-487f-bc31-50c040c098d9) added
+04-Jun-2019 11:13:15 - INFO    :: Thread-13 : [Eminem] New release Recovery (362e2ce8-1761-42ce-94be-43833538fdf8) added
+04-Jun-2019 11:13:15 - INFO    :: Thread-13 : [Eminem] New release Recovery (65085f39-6482-44fd-8c34-a266475bedeb) added
+04-Jun-2019 11:13:15 - INFO    :: Thread-13 : [Eminem] New release Recovery (86c8b00a-aaf5-4795-8777-0bdf80e0ad3b) added
+04-Jun-2019 11:13:15 - INFO    :: Thread-13 : [Eminem] New release Recovery (c17555bf-b84f-328c-94ff-d749bb35b95a) added
+04-Jun-2019 11:13:15 - INFO    :: Thread-13 : [Eminem] New release Recovery (dddf01df-f9f1-4ba6-b414-5ddf1984fc7f) added
+04-Jun-2019 11:13:15 - INFO    :: Thread-13 : [Eminem] Packaging Recovery releases into hybrid title
+04-Jun-2019 11:13:15 - INFO    :: Thread-13 : [Eminem] Seeing if we need album art for Recovery
+04-Jun-2019 11:13:16 - INFO    :: Thread-13 : [Eminem] Now adding: The Marshall Mathers LP (New Release Group)
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (156a7344-89e1-49fb-b3d3-9525c1ee5a5f) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (29f9ce15-7171-3495-bc32-705192370204) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (3be843cb-1106-4938-a8f2-e09662b78ee8) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (435eb30f-f461-4f2a-960c-3dc18ce5a6ca) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (51544aed-52a1-42b9-aff0-9237ac3dd564) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (6d47c297-3edb-40d5-82f3-4ca5326c7629) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (8d2661e7-fd4a-3ea6-b4d1-0bc720115744) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (976ce3a6-7a00-4273-a83e-df1f908246ff) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (9a45c98b-3ef7-3395-9f3f-d4dfd0eacf0f) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (a5232981-a53b-41e3-bc93-ec095d69e37e) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (c91de8fc-8674-4273-bbcb-5c9185dc6567) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (d5c10a17-6b59-3903-b46e-ae9522c73c50) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (f3a793a7-b7a9-4705-80b3-b4ae729eab4c) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (f79ad0fb-c6cf-4e21-915d-2f99c6c8e4b3) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP (f83bd999-2674-4bc4-9d1c-3d80d0320407) added
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] Packaging The Marshall Mathers LP releases into hybrid title
+04-Jun-2019 11:13:18 - INFO    :: Thread-13 : [Eminem] Seeing if we need album art for The Marshall Mathers LP
+04-Jun-2019 11:13:19 - INFO    :: Thread-13 : [Eminem] Now adding: The Marshall Mathers LP 2 (New Release Group)
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP 2 (01929213-4f86-4b4a-a14b-5ad2eabfb815) added
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP 2 (1817c50b-b07e-42d1-b4d1-998030892284) added
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP 2 (1d0b26af-e0e9-4aba-8aaf-88bee38b2141) added
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP 2 (35c9e268-bf68-4824-ac4f-fe87f442a2f4) added
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP 2 (5e5841c7-317d-4fba-af2d-5e2ea4f87c6b) added
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP 2 (68b762a7-9db0-48a6-9817-9643110db99d) added
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP 2 (6ef4ef70-2667-4bd1-8af7-d0d23a866436) added
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP 2 (aa4dd418-de74-434f-ab50-6c795112b9d1) added
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP 2 (b1deba13-ada0-4901-af50-1d721085a2b6) added
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] New release The Marshall Mathers LP 2 (c8465195-cf23-4c63-b9d8-3b1e60b0596f) added
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] Packaging The Marshall Mathers LP 2 releases into hybrid title
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] Seeing if we need album art for The Marshall Mathers LP 2
+04-Jun-2019 11:13:20 - INFO    :: Thread-13 : [Eminem] Now adding: The Slim Shady LP (New Release Group)
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] New release The Slim Shady LP (02319abc-a999-4854-a654-f7a33c9db19e) added
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] New release The Slim Shady LP (7b4d84ae-1c36-4a34-a7b4-c1d41899c0d1) added
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] New release The Slim Shady LP (a58bee4e-2206-4345-bf3f-4ff2072c0d70) added
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] New release The Slim Shady LP (b70b0195-7df7-467e-ab42-a0453d900682) added
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] New release The Slim Shady LP (bcb59f2c-e734-4601-814f-e8a23b129135) added
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] New release The Slim Shady LP (d13d4b3f-53cd-4614-a07c-4385158ea9bc) added
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] New release The Slim Shady LP (f305300d-d3ef-314f-a260-9b2cc12705d8) added
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] New release The Slim Shady LP (f63091b3-cb0c-4542-859c-cab4cddf1005) added
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] New release The Slim Shady LP (fd82c0c8-687c-32f6-b31e-0b2c585e006b) added
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] Packaging The Slim Shady LP releases into hybrid title
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] Seeing if we need album art for The Slim Shady LP
+04-Jun-2019 11:13:25 - INFO    :: Thread-13 : [Eminem] Now adding: Unmastered Sequence (New Release Group)
+04-Jun-2019 11:13:26 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Unmastered Sequence
+04-Jun-2019 11:13:26 - INFO    :: Thread-13 : [Eminem] Now adding: Revival (New Release Group)
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] New release Revival (42e85737-a46e-4200-b74e-056aec747646) added
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] New release Revival (5949fefd-f62d-42c9-a795-8a277a7eb4ab) added
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] New release Revival (72fb262d-c517-4e94-9f08-eefa95df8b34) added
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] New release Revival (74e9ec01-d45d-4f94-a5c0-9dbf5077b34c) added
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] New release Revival (87b9a38c-ba37-4675-9ce6-d924f5ddbd12) added
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] New release Revival (c960bc7d-59fc-4298-b511-a4fce5ebe99e) added
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] New release Revival (d236e2b1-505c-409b-9cf9-e4d9afc7a1de) added
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] New release Revival (e3889a26-30ea-4e69-a232-3754192f68ae) added
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] New release Revival (e7f13640-c4fb-4c6e-af82-0ad402e8aa9a) added
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] Packaging Revival releases into hybrid title
+04-Jun-2019 11:13:29 - INFO    :: Thread-13 : [Eminem] Seeing if we need album art for Revival
+04-Jun-2019 11:13:30 - INFO    :: Thread-13 : [Eminem] Now adding: Encore (Instrumentals) (New Release Group)
+04-Jun-2019 11:13:31 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to Encore (Instrumentals)
+04-Jun-2019 11:13:31 - INFO    :: Thread-13 : [Eminem] Now adding: The Eminem Show (New Release Group)
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] New release The Eminem Show (200ac39f-71a3-4bd8-ae8a-a93ae9f47e7e) added
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] New release The Eminem Show (40a7080b-40e4-3b24-847a-d21aaee5f414) added
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] New release The Eminem Show (5c3da192-e366-4b55-8174-85e20f900dbb) added
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] New release The Eminem Show (923de299-21a3-4bf9-89c1-6d45f051a2e0) added
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] New release The Eminem Show (af71f60c-a8e8-4774-a2b3-30dbfaa13bd6) added
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] New release The Eminem Show (b4b2bc8a-b58c-4bc1-8ea1-ac06d90bd4e1) added
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] New release The Eminem Show (c1bf4d6c-707c-456f-ab95-7a67e7a09653) added
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] New release The Eminem Show (f97e8145-7b5f-416a-9365-b4fb3a681d71) added
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] New release The Eminem Show (Edited Version) (fd3dade6-de22-4492-ac64-8e09365e447c) added
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] Packaging The Eminem Show releases into hybrid title
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] Seeing if we need album art for The Eminem Show
+04-Jun-2019 11:13:37 - INFO    :: Thread-13 : [Eminem] Now adding: Relapse (New Release Group)
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] New release Relapse (Deluxe Version) (24fd7de6-8cb2-43ab-bae8-213da3c42e0c) added
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] New release Relapse (25130d2d-8a82-4956-99e7-30efd0f9ff89) added
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] New release Relapse: Refill (31e5e525-df44-4fbd-8fde-6a4b4503beb5) added
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] New release Relapse (5fe6d9b3-3602-4315-ad7c-9aa0c8feade7) added
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] New release Relapse (88a856de-d5d1-4225-9612-8858b2f5353f) added
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] New release Relapse (a15b1ef4-9360-421d-9697-f6e4307090a1) added
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] New release Relapse: Refill (a5afe885-aac7-4dd0-98c6-e59507663d8c) added
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] New release Relapse (c0c2f1bf-57d9-4d4f-88a0-4da54ac7c65e) added
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] New release Relapse: Refill (e4c70158-a426-48f7-b96d-1238cdf3db60) added
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] New release Relapse (f4b5fc34-c16b-447a-98fd-9f2b3803cfad) added
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] Packaging Relapse releases into hybrid title
+04-Jun-2019 11:13:42 - INFO    :: Thread-13 : [Eminem] Seeing if we need album art for Relapse
+04-Jun-2019 11:13:44 - INFO    :: Thread-13 : [Eminem] Now adding: The Underground Collection (New Release Group)
+04-Jun-2019 11:13:44 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to The Underground Collection
+04-Jun-2019 11:13:44 - INFO    :: Thread-13 : [Eminem] Now adding: The Freestyle Show (New Release Group)
+04-Jun-2019 11:13:45 - INFO    :: Thread-13 : [Eminem] No new releases, so no changes made to The Freestyle Show
+04-Jun-2019 11:13:48 - INFO    :: Thread-13 : Seeing if we need album art for: Eminem
+04-Jun-2019 11:13:50 - INFO    :: Thread-13 : Fetching Metacritic reviews for: Eminem
+04-Jun-2019 11:13:56 - INFO    :: Thread-13 : Updating complete for: Eminem
+04-Jun-2019 11:13:56 - INFO    :: Thread-13 : Updating artist information from Last.fm
+04-Jun-2019 11:13:56 - INFO    :: Thread-13 : Fetching similar artists from Last.FM for tag cloud
+04-Jun-2019 11:13:58 - INFO    :: Thread-13 : Fetching similar artists from Last.FM for tag cloud
+04-Jun-2019 11:13:59 - INFO    :: Thread-13 : Library scan complete
+04-Jun-2019 11:27:41 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 11:27:41 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 11:27:41 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 11:36:23 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 11:36:23 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 11:36:24 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 11:36:24 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 11:36:25 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 11:36:25 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 11:36:25 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 11:36:25 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 11:36:25 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 12:09:48 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 12:09:48 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 12:09:48 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 12:10:31 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 12:10:31 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 12:10:34 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 12:10:34 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 12:10:34 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 12:10:34 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 12:10:34 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 12:10:34 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 12:10:34 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 12:11:10 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 12:11:10 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 12:11:10 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 12:12:11 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 12:12:11 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 12:12:11 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 12:12:11 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 12:12:12 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 12:12:12 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 12:12:12 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 12:12:12 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 12:12:12 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 12:13:53 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 12:13:53 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 12:13:53 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 12:14:19 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 12:14:19 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 12:14:20 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 12:14:20 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 12:14:20 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 12:14:20 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 12:14:20 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 12:14:20 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 12:14:20 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 12:19:17 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 12:19:17 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 12:19:17 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 12:19:40 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 12:19:40 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 12:19:40 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 12:19:40 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 12:19:41 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 12:19:41 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 12:19:41 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 12:19:41 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 12:19:41 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 12:26:58 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 12:26:58 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 12:26:59 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 12:29:26 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 12:29:26 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 12:29:27 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 12:29:27 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 12:29:27 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 12:29:27 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 12:29:27 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 12:29:27 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 12:29:27 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 12:33:00 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 12:33:00 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 12:33:00 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 12:33:45 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 12:33:45 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 12:33:46 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 12:33:46 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 12:33:47 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 12:33:47 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 12:33:47 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 12:33:47 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 12:33:47 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 12:37:03 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 12:37:03 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 12:37:03 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 12:37:45 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 12:37:45 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 12:37:46 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 12:37:46 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 12:37:46 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 12:37:46 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 12:37:46 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 12:37:46 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 12:37:46 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:01:57 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:01:57 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:01:57 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 13:03:06 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 13:03:06 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 13:03:08 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 13:03:08 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 13:03:08 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 13:03:08 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 13:03:08 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 13:03:08 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 13:03:08 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:12:42 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:12:42 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:12:42 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 13:14:45 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 13:14:45 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 13:14:46 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 13:14:46 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 13:14:47 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 13:14:47 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 13:14:47 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 13:14:47 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 13:14:47 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:16:11 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:16:11 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:16:11 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 13:16:32 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 13:16:32 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 13:16:33 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 13:16:33 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 13:16:33 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 13:16:33 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 13:16:33 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 13:16:33 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 13:16:33 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:17:55 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:17:55 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:17:55 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 13:18:16 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 13:18:16 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 13:18:19 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 13:18:19 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 13:18:19 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 13:18:19 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 13:18:19 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 13:18:19 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 13:18:19 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:30:47 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:30:47 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:30:47 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 13:31:19 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 13:31:19 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 13:31:20 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 13:31:20 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 13:31:20 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 13:31:20 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 13:31:20 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 13:31:20 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 13:31:20 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:34:11 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:34:11 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:34:11 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 13:34:40 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 13:34:40 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 13:34:42 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 13:34:42 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 13:34:42 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 13:34:42 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 13:34:42 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 13:34:42 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 13:34:42 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:38:36 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:38:37 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:38:37 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 13:39:39 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 13:39:39 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 13:39:40 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 13:39:40 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 13:39:40 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 13:39:40 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 13:39:40 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 13:39:40 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 13:39:40 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:42:12 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:42:12 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:42:12 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 13:42:49 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 13:42:49 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 13:42:53 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 13:42:53 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 13:42:53 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 13:42:53 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 13:42:53 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 13:42:53 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 13:42:53 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:43:37 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:43:37 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:43:37 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 13:44:16 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 13:44:16 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 13:44:18 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 13:44:18 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 13:44:19 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 13:44:19 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 13:44:19 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 13:44:19 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 13:44:19 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:47:13 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:47:13 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:47:13 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 13:48:09 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 13:48:09 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 13:48:10 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 13:48:10 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 13:48:10 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 13:48:10 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 13:48:10 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 13:48:10 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 13:48:10 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 13:57:17 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 13:57:17 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 13:57:17 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 14:07:44 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 14:07:44 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 14:07:48 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 14:07:48 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 14:07:49 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 14:07:49 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 14:07:49 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 14:07:49 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 14:07:49 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 14:09:41 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 14:09:41 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 14:09:41 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 14:10:18 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 14:10:18 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 14:10:19 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 14:10:19 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 14:10:19 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 14:10:19 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 14:10:19 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 14:10:19 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 14:10:19 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 14:12:22 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 14:12:22 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 14:12:22 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 14:12:58 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 14:12:58 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 14:13:00 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 14:13:00 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 14:13:00 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 14:13:00 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 14:13:00 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 14:13:00 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 14:13:00 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 14:13:40 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 14:13:40 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 14:13:40 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 14:15:52 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 14:15:52 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 14:15:53 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 14:15:53 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 14:15:54 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 14:15:54 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 14:15:54 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 14:15:54 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 14:15:54 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 14:23:24 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 14:23:24 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 14:23:24 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 14:24:04 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 14:24:04 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 14:24:05 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 14:24:05 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 14:24:05 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 14:24:05 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 14:24:05 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 14:24:05 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 14:24:05 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 14:26:54 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 14:26:54 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 14:26:54 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 14:27:16 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 14:27:16 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 14:27:17 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 14:27:17 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 14:27:18 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 14:27:18 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 14:27:18 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 14:27:18 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 14:27:18 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 14:28:33 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 14:28:34 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 14:28:34 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 14:30:06 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 14:30:06 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 14:30:09 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 14:30:09 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 14:30:10 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 14:30:10 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 14:30:10 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 14:30:10 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 14:30:10 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 14:32:01 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 14:32:01 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 14:32:01 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 14:32:25 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 14:32:25 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 14:32:27 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 14:32:27 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 14:32:28 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 14:32:28 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 14:32:28 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 14:32:28 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 14:32:28 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 14:36:37 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 14:36:37 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 14:36:37 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 14:37:03 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 14:37:03 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 14:37:04 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 14:37:04 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 14:37:04 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 14:37:04 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 14:37:04 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 14:37:04 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 14:37:04 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 15:21:26 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 15:21:26 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 15:21:26 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 15:22:06 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 15:22:06 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 15:22:07 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 15:22:07 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 15:22:08 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 15:22:08 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 15:22:08 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 15:22:08 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 15:22:08 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 15:41:03 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 15:41:03 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 15:41:03 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 15:42:15 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 15:42:15 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 15:42:21 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 15:42:21 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 15:42:22 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 15:42:22 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 15:42:22 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 15:42:22 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 15:42:22 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 15:44:03 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 15:44:03 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 15:44:03 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 15:47:35 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 15:47:35 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 15:47:36 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 15:47:36 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 15:47:37 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 15:47:37 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 15:47:37 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 15:47:37 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 15:47:37 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 15:49:01 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 15:49:02 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 15:49:02 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 15:50:02 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 15:50:02 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 15:50:03 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 15:50:03 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 15:50:04 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 15:50:04 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 15:50:04 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 15:50:04 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 15:50:04 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 15:51:20 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 15:51:21 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 15:51:21 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 15:57:39 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 15:57:39 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 15:57:40 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 15:57:40 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 15:57:40 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 15:57:40 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 15:57:40 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 15:57:40 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 15:57:40 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 15:58:29 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 15:58:29 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 15:58:29 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 16:00:49 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 16:00:49 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 16:00:50 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 16:00:50 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 16:00:51 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 16:00:51 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 16:00:51 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 16:00:51 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 16:00:51 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 16:03:41 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 16:03:41 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 16:03:41 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 16:05:08 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 16:05:08 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 16:05:09 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 16:05:09 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 16:05:09 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 16:05:09 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 16:05:09 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 16:05:09 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 16:05:09 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 16:10:33 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 16:10:33 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 16:10:33 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 16:16:01 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 16:16:01 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 16:16:07 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 16:16:07 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 16:16:08 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 16:16:08 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 16:16:08 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 16:16:08 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 16:16:08 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 16:21:41 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 16:21:41 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 16:21:41 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 16:23:40 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 16:23:40 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 16:23:41 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 16:23:41 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 16:23:41 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 16:23:41 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 16:23:41 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 16:23:41 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 16:23:41 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 16:38:22 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 16:38:22 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 16:38:22 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 16:38:36 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 16:38:36 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 16:38:37 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 16:38:37 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 16:38:37 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 16:38:37 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 16:38:37 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 16:38:37 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 16:38:37 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 16:39:57 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 16:39:57 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 16:39:58 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 16:40:32 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 16:40:32 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 16:40:33 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 16:40:33 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 16:40:33 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 16:40:33 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 16:40:33 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 16:40:33 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 16:40:33 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 16:42:13 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 16:42:13 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 16:42:13 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 16:42:38 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 16:42:38 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 16:42:41 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 16:42:41 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 16:42:42 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 16:42:42 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 16:42:42 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 16:42:42 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 16:42:42 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 17:15:17 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 17:15:17 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 17:15:17 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 17:31:44 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 17:31:44 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 17:31:45 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 17:31:45 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 17:31:45 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 17:31:45 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 17:31:45 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 17:31:45 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 17:31:45 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 17:43:28 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 17:43:28 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 17:43:28 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 17:43:51 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 17:43:51 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 17:43:53 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 17:43:53 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 17:43:54 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 17:43:54 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 17:43:54 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 17:43:54 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 17:43:54 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 17:44:16 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 17:44:16 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 17:44:16 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 17:47:58 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 17:47:58 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 17:47:59 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 17:47:59 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 17:47:59 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 17:47:59 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 17:47:59 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 17:47:59 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 17:47:59 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 17:48:42 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 17:48:42 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 17:48:42 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 17:49:03 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 17:49:03 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 17:49:05 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 17:49:05 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 17:49:05 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 17:49:05 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 17:49:05 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 17:49:05 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 17:49:05 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 18:07:14 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 18:07:14 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 18:07:14 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 18:12:46 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 18:12:46 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 18:12:47 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 18:12:47 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 18:12:47 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 18:12:47 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 18:12:47 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 18:12:47 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 18:12:47 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 18:17:38 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 18:17:39 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 18:17:39 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 18:18:09 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 18:18:09 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 18:18:10 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 18:18:10 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 18:18:11 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 18:18:11 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 18:18:11 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 18:18:11 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 18:18:11 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 18:27:50 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 18:27:50 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 18:27:50 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 18:30:06 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 18:30:06 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 18:30:07 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 18:30:07 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 18:30:08 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 18:30:08 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 18:30:08 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 18:30:08 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 18:30:08 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 18:32:54 - INFO    :: CP Server Thread-5 : Marking album: b0fa91c8-0996-38f1-ab84-797f58d7c4eb as wanted...
+04-Jun-2019 18:32:54 - INFO    :: CP Server Thread-5 : Searching for wanted albums
+04-Jun-2019 18:32:54 - INFO    :: CP Server Thread-5 : Searching for "Eminem - The Marshall Mathers LP" since it was marked as wanted
+04-Jun-2019 18:32:54 - INFO    :: CP Server Thread-5 : No appropriate matches found for Eminem - The Marshall Mathers LP
+04-Jun-2019 18:32:54 - INFO    :: CP Server Thread-5 : Search for wanted albums complete
+04-Jun-2019 18:40:57 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 18:40:57 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 18:40:57 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 18:43:19 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 18:43:19 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 18:43:20 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 18:43:20 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 18:43:21 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 18:43:21 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 18:43:21 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 18:43:21 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 18:43:21 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+04-Jun-2019 18:46:50 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+04-Jun-2019 18:46:50 - INFO    :: MainThread : Writing configuration to file
+04-Jun-2019 18:46:50 - INFO    :: MainThread : Headphones is shutting down...
+04-Jun-2019 18:47:11 - INFO    :: MainThread : Checking to see if the database has all tables....
+04-Jun-2019 18:47:11 - INFO    :: MainThread : Retrieving latest version information from GitHub
+04-Jun-2019 18:47:15 - INFO    :: MainThread : Headphones is up to date
+04-Jun-2019 18:47:15 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+04-Jun-2019 18:47:16 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+04-Jun-2019 18:47:16 - INFO    :: MainThread : Scheduled background task: Download Scan
+04-Jun-2019 18:47:16 - INFO    :: MainThread : Scheduled background task: Library Scan
+04-Jun-2019 18:47:16 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+04-Jun-2019 18:47:16 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+05-Jun-2019 00:47:16 - INFO    :: Thread-18 : Retrieving latest version information from GitHub
+05-Jun-2019 00:47:16 - INFO    :: Thread-18 : Headphones is up to date
+05-Jun-2019 06:47:16 - INFO    :: Thread-13 : Retrieving latest version information from GitHub
+05-Jun-2019 06:47:16 - INFO    :: Thread-13 : Headphones is up to date
+05-Jun-2019 10:45:45 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+05-Jun-2019 10:45:45 - INFO    :: MainThread : Writing configuration to file
+05-Jun-2019 10:45:45 - INFO    :: MainThread : Headphones is shutting down...
+06-Jun-2019 12:20:49 - INFO    :: MainThread : Checking to see if the database has all tables....
+06-Jun-2019 12:20:50 - INFO    :: MainThread : Retrieving latest version information from GitHub
+06-Jun-2019 12:20:50 - INFO    :: MainThread : Headphones is up to date
+06-Jun-2019 12:20:50 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+06-Jun-2019 12:20:51 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+06-Jun-2019 12:20:51 - INFO    :: MainThread : Scheduled background task: Download Scan
+06-Jun-2019 12:20:51 - INFO    :: MainThread : Scheduled background task: Library Scan
+06-Jun-2019 12:20:51 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+06-Jun-2019 12:20:51 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+06-Jun-2019 12:25:57 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+06-Jun-2019 12:25:58 - INFO    :: MainThread : Writing configuration to file
+06-Jun-2019 12:25:58 - INFO    :: MainThread : Headphones is shutting down...
+06-Jun-2019 12:28:02 - INFO    :: MainThread : Checking to see if the database has all tables....
+06-Jun-2019 12:28:02 - INFO    :: MainThread : Retrieving latest version information from GitHub
+06-Jun-2019 12:28:03 - INFO    :: MainThread : Headphones is up to date
+06-Jun-2019 12:28:03 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+06-Jun-2019 12:28:03 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+06-Jun-2019 12:28:03 - INFO    :: MainThread : Scheduled background task: Download Scan
+06-Jun-2019 12:28:03 - INFO    :: MainThread : Scheduled background task: Library Scan
+06-Jun-2019 12:28:03 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+06-Jun-2019 12:28:03 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+06-Jun-2019 12:35:08 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+06-Jun-2019 12:35:08 - INFO    :: MainThread : Writing configuration to file
+06-Jun-2019 12:35:08 - INFO    :: MainThread : Headphones is shutting down...
+06-Jun-2019 12:35:20 - INFO    :: MainThread : Checking to see if the database has all tables....
+06-Jun-2019 12:35:20 - INFO    :: MainThread : Retrieving latest version information from GitHub
+06-Jun-2019 12:35:24 - INFO    :: MainThread : Headphones is up to date
+06-Jun-2019 12:35:24 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+06-Jun-2019 12:35:24 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+06-Jun-2019 12:35:24 - INFO    :: MainThread : Scheduled background task: Download Scan
+06-Jun-2019 12:35:24 - INFO    :: MainThread : Scheduled background task: Library Scan
+06-Jun-2019 12:35:24 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+06-Jun-2019 12:35:24 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+06-Jun-2019 12:46:03 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+06-Jun-2019 12:46:03 - INFO    :: MainThread : Writing configuration to file
+06-Jun-2019 12:46:03 - INFO    :: MainThread : Headphones is shutting down...
+06-Jun-2019 12:50:59 - INFO    :: MainThread : Checking to see if the database has all tables....
+06-Jun-2019 12:50:59 - INFO    :: MainThread : Retrieving latest version information from GitHub
+06-Jun-2019 12:50:59 - INFO    :: MainThread : Headphones is up to date
+06-Jun-2019 12:50:59 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+06-Jun-2019 12:51:00 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+06-Jun-2019 12:51:00 - INFO    :: MainThread : Scheduled background task: Download Scan
+06-Jun-2019 12:51:00 - INFO    :: MainThread : Scheduled background task: Library Scan
+06-Jun-2019 12:51:00 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+06-Jun-2019 12:51:00 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+06-Jun-2019 12:51:20 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+06-Jun-2019 12:51:20 - INFO    :: MainThread : Writing configuration to file
+06-Jun-2019 12:51:20 - INFO    :: MainThread : Headphones is shutting down...
+06-Jun-2019 13:00:52 - INFO    :: MainThread : Checking to see if the database has all tables....
+06-Jun-2019 13:00:52 - INFO    :: MainThread : Retrieving latest version information from GitHub
+06-Jun-2019 13:00:53 - INFO    :: MainThread : Headphones is up to date
+06-Jun-2019 13:00:53 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+06-Jun-2019 13:00:53 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+06-Jun-2019 13:00:53 - INFO    :: MainThread : Scheduled background task: Download Scan
+06-Jun-2019 13:00:53 - INFO    :: MainThread : Scheduled background task: Library Scan
+06-Jun-2019 13:00:53 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+06-Jun-2019 13:00:53 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+06-Jun-2019 14:54:18 - INFO    :: MainThread : Checking to see if the database has all tables....
+06-Jun-2019 14:54:18 - INFO    :: MainThread : Retrieving latest version information from GitHub
+06-Jun-2019 14:54:19 - INFO    :: MainThread : Headphones is up to date
+06-Jun-2019 14:54:19 - INFO    :: MainThread : Starting Headphones web server on http://0.0.0.0:8181/
+06-Jun-2019 14:54:19 - INFO    :: MainThread : Scheduled background task: Search for Wanted
+06-Jun-2019 14:54:19 - INFO    :: MainThread : Scheduled background task: Download Scan
+06-Jun-2019 14:54:19 - INFO    :: MainThread : Scheduled background task: Library Scan
+06-Jun-2019 14:54:19 - INFO    :: MainThread : Scheduled background task: MusicBrainz Update
+06-Jun-2019 14:54:19 - INFO    :: MainThread : Scheduled background task: Check GitHub for updates
+06-Jun-2019 17:27:50 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+06-Jun-2019 17:27:50 - INFO    :: MainThread : Writing configuration to file
+06-Jun-2019 17:27:50 - INFO    :: MainThread : Headphones is shutting down...
